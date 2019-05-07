@@ -1,0 +1,20 @@
+{
+  "name": "arkanoidsocket.io",
+  "version": "1.0.0",
+  "description": "Arkanoid para Comunicaciones II",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "nodemon server/server.js"
+  },
+  "keywords": [
+    "Arkanoid",
+    "Socket.IO"
+  ],
+  "author": "Andres Isaza",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4",
+    "socket.io": "^2.2.0"
+  }
+}
