@@ -14,9 +14,13 @@
 <body>
     <h1 class="text-center mt-2">Arkanoid</h1>
     <div class="container-canvas mt-5">
-        <canvas class="d-block" id="myCanvas" width="800" height="500"></canvas>
+        <canvas class="d-block" id="myCanvas" width="800" height="500">
+        </canvas>
     </div>
-    <button class="mt-2 offset-3 btn btn-outline-dark" onclick="nextLevel()">Proximo nivel</button>
+    <div class="controls mt-2 offset-3">
+        <button class="btn btn-outline-dark d-none" onclick="nextLevel()">Proximo nivel</button>
+        <button class="btn btn-outline-dark">Reiniciar partida</button>
+    </div>
 
     <script src="socket.io/socket.io.js"></script>
     <script src="js/game.js"></script>
